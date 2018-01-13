@@ -9,8 +9,8 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://182.254.155.110:3306/fm?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;characterSetResults=utf8&amp;zeroDateTimeBehavior=convertToNull&amp;&useSSL=false
-    username: yuxin
-    password: yuxin1012
+    username:
+    password:
     initialSize: 1
     minIdle: 3
     maxActive: 20
