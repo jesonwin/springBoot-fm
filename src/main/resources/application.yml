@@ -1,0 +1,15 @@
+server:
+  port: 8112
+  tomcat:
+    uri-encoding: utf-8
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  profiles: 
+    active: dev
+  http:
+    multipart:
+      max-file-size: 30Mb
+      max-request-size: 30Mb
